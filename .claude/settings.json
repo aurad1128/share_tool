@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py -c \"import PyQt5; print\\('PyQt5 version:', PyQt5.QtCore.PYQT_VERSION_STR\\)\")",
+      "Bash(py \"c:/Users/12692/Desktop/面对面传输/src/test_components.py\")",
+      "Bash(py test_components.py)",
+      "Bash(echo \"FAILED: $?\")",
+      "Bash(py -c \"import sys; sys.path.insert\\(0, 'c:/Users/12692/Desktop/面对面传输/src'\\); from PyQt5.QtWidgets import QApplication; app = QApplication\\(sys.argv\\); exec\\(open\\('c:/Users/12692/Desktop/面对面传输/src/test_components.py', encoding='utf-8'\\).read\\(\\)\\)\")",
+      "Bash(py -m pip list)",
+      "Bash(c:/Users/12692/Desktop/面对面传输/venv/Scripts/python.exe -c ' *)",
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\12692\\\\Desktop\\\\面对面传输 && run.bat\")",
+      "Bash(QT_QPA_PLATFORM_PLUGIN_PATH=\"c:/Users/12692/Desktop/面对面传输/venv/lib/site-packages/PyQt5/Qt5/plugins\" \"c:/Users/12692/Desktop/面对面传输/venv/Scripts/python.exe\" -c \"import sys; sys.path.insert\\(0, 'c:/Users/12692/Desktop/面对面传输/src'\\); from PyQt5.QtWidgets import QApplication; app = QApplication\\(sys.argv\\); from ui.home_page import HomePage; from ui.function_list_page import FunctionListPage; from ui.crawling_page import CrawlingPage; from ui.result_page import ResultPage; h=HomePage\\(\\); f=FunctionListPage\\(\\); c=CrawlingPage\\(\\); r=ResultPage\\(\\); r.set_share_info\\('TEST99'\\); print\\('All OK - window size:', 860, 'x', 680\\)\")",
+      "Bash(cscript.exe //Nologo \"C:\\\\Users\\\\12692\\\\Desktop\\\\面对面传输工具.vbs\")",
+      "Bash(cmd.exe /c \"for %A in \\(\\\\\"C:\\\\Users\\\\12692\\\\Desktop\\\\面对面传输\\\\\"\\) do @echo %~sA\")",
+      "Bash(powershell.exe -Command \"\\(New-Object -ComObject Scripting.FileSystemObject\\).GetFolder\\('C:\\\\Users\\\\12692\\\\Desktop\\\\面对面传输'\\).ShortPath\")",
+      "Bash(cmd.exe /c \"ren C:\\\\Users\\\\12692\\\\Desktop\\\\面对面传输 share_tool\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\12692\\Desktop"
+    ]
+  }
+}
